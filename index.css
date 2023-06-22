@@ -1,0 +1,15 @@
+:root {
+    --dark-bronze: #854F00;
+    --oxford-blue: #0D1E4E;
+    --arsenic: #434343;
+    --cultured: #F6F6F6;
+    --one-five: rgba(0, 0, 0, 0.15);
+}
+
+.shadow-full {
+    box-shadow: 0px 4px 30px 0px #00000026;
+}
+
+.greedy {
+    grid-area: 1 / 1; 
+}
