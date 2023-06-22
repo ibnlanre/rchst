@@ -714,8 +714,10 @@
     </section>
 
     <!--MISSION-->
-    <section>
-      <article class="gap-4 grid">
+    <section
+      class="flex gap-[clamp(2.25rem,3vw,5rem)] max-w-screen-xl mx-auto px-[clamp(1.25rem,3vw,3.5rem)] py-20 items-center md:flex-row flex-col-reverse"
+    >
+      <article class="gap-4 grid flex-1">
         <h2 class="text-[var(--dark-bronze)] font-bold text-4xl">
           Mission Statement
         </h2>
@@ -746,6 +748,28 @@
           </li>
         </ol>
       </article>
+
+      <figure class="rounded-xl grid grid-cols-2 flex-1 auto-rows-max gap-2">
+        <img
+          class="border-4 border-white rounded-tl-xl aspect-square object-cover shadow-mission"
+          src="./public/mission/scapel.jpg"
+          alt="doctor performing operation"
+        />
+        <img
+          class="border-4 border-white rounded-tr-xl aspect-square object-cover shadow-mission"
+          src="./public/mission/stethoscope.jpg"
+          alt="stethoscope on the table"
+        />
+        <img
+          class="border-4 border-white rounded-bl-xl aspect-square object-cover shadow-mission"
+          src="./public/mission/doctor.jpg"
+          alt=""
+        />
+        <img
+          class="border-4 border-white rounded-br-xl aspect-square object-cover shadow-mission"
+          src="./public/mission/scientist.jpg"
+        />
+      </figure>
     </section>
 
     <!--VISION-->
@@ -1093,7 +1117,9 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <a href="/about">About Us</a>
+                  <a class="hover:text-[var(--dark-bronze)]" href="/about"
+                    >About Us</a
+                  >
                 </li>
 
                 <!--CONTACT US-->
@@ -1113,7 +1139,9 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <a href="/contact">Contact Us</a>
+                  <a class="hover:text-[var(--dark-bronze)]" href="/contact"
+                    >Contact Us</a
+                  >
                 </li>
 
                 <!--STUDENT PORTAL-->
@@ -1133,7 +1161,11 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <a href="/student-portal">Student Portal</a>
+                  <a
+                    class="hover:text-[var(--dark-bronze)]"
+                    href="/student-portal"
+                    >Student Portal</a
+                  >
                 </li>
 
                 <!--APPLICATION PORTAL-->
@@ -1153,7 +1185,11 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <a href="/application-portal">Application Portal</a>
+                  <a
+                    class="hover:text-[var(--dark-bronze)]"
+                    href="/application-portal"
+                    >Application Portal</a
+                  >
                 </li>
 
                 <!--NEWS & EVENTS-->
@@ -1173,7 +1209,9 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <a href="/news">News & Events</a>
+                  <a class="hover:text-[var(--dark-bronze)]" href="/news"
+                    >News & Events</a
+                  >
                 </li>
               </ul>
             </div>

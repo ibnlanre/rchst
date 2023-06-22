@@ -1,15 +1,19 @@
 :root {
-    --dark-bronze: #854F00;
-    --oxford-blue: #0D1E4E;
-    --arsenic: #434343;
-    --cultured: #F6F6F6;
-    --one-five: rgba(0, 0, 0, 0.15);
+  --dark-bronze: #854f00;
+  --oxford-blue: #0d1e4e;
+  --arsenic: #434343;
+  --cultured: #f6f6f6;
+  --one-five: rgba(0, 0, 0, 0.15);
 }
 
 .shadow-full {
-    box-shadow: 0px 4px 30px 0px #00000026;
+  box-shadow: 0px 4px 30px 0px #00000026;
+}
+
+.shadow-mission {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .greedy {
-    grid-area: 1 / 1; 
+  grid-area: 1 / 1;
 }
